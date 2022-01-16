@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.pair-board {
+  margin: auto;
+  width: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  outline: #996611 solid 3px;
+}
+
+.card {
+  margin: 2px;
+  background: #666666;
+  text-align: center;
+  border: #999999 solid 2px;
+}
+
+/* .cont {
+  margin: auto;
+  width: 100px;
+} */
+
+.button-restart {
+  display: block;
+  padding: 10px 20px;
+  width: 300px;
+  margin: 40px auto;
+  font-size: 32px;
+
+}
